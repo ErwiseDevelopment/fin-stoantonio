@@ -1,0 +1,618 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 03:59:45
+* VERSION: 4.0.0.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.29                                |7.4.29
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.29 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+DOC ROOT____________: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/Salesianos/Finais/paroquia-antonio/dup-installer/main.installer.php"
+********************************************************************************
+OVERWRITE PARAMS
+********************************************************************************
+INSTALLER INFO
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+URL_NEW_____________: "http://localhost/Salesianos/Finais/paroquia-antonio"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "D:\Sites\htdocs\Salesianos\Finais\paroquia-antonio\santoantonio1_[HASH]_20220603034734_archive.zip"
+ARCHIVE SIZE________: 307.13MB
+CREATED_____________: 2022-06-03 03:47:34
+WP VERSION__________: 6.0
+DUP VERSION_________: 4.0.0.1
+DB VERSION__________: 5.6.41
+DB FILE SIZE________: 2.88MB
+DB TABLES___________: 21
+DB ROWS_____________: 3750
+URL HOME____________: https://santoantonio.erwise.com.br
+URL CORE____________: https://santoantonio.erwise.com.br
+URL CONTENT_________: https://santoantonio.erwise.com.br/wp-content
+URL UPLOAD__________: https://santoantonio.erwise.com.br/wp-content/uploads
+URL PLUGINS_________: https://santoantonio.erwise.com.br/wp-content/plugins
+URL MU PLUGINS______: https://santoantonio.erwise.com.br/wp-content/mu-plugins
+URL THEMES__________: https://santoantonio.erwise.com.br/wp-content/themes
+PATH HOME___________: /home2/erwise19/public_html/4-Dominus/santoantonio
+PATH ABS____________: /home2/erwise19/public_html/4-Dominus/santoantonio
+PATH WPCONFIG_______: /home2/erwise19/public_html/4-Dominus/santoantonio
+PATH WPCONTENT______: /home2/erwise19/public_html/4-Dominus/santoantonio/wp-content
+PATH UPLOADS________: /home2/erwise19/public_html/4-Dominus/santoantonio/wp-content/uploads
+PATH PLUGINS________: /home2/erwise19/public_html/4-Dominus/santoantonio/wp-content/plugins
+PATH MUPLUGINS______: /home2/erwise19/public_html/4-Dominus/santoantonio/wp-content/mu-plugins
+PATH THEMES_________: /home2/erwise19/public_html/4-Dominus/santoantonio/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:acf-frontend-form-element/acf-frontend.php        ][ON:true ] ACF Frontend
+PLUGIN [SLUG:acf-to-rest-api/class-acf-to-rest-api.php         ][ON:true ] ACF to REST API
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:true ] Advanced Custom Fields
+PLUGIN [SLUG:acf-repeater/acf-repeater.php                     ][ON:true ] Advanced Custom Fields: Repeater Field
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ] Advanced Custom Fields PRO
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ] Contact Form 7
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ] Duplicator Pro
+PLUGIN [SLUG:cookie-law-info/cookie-law-info.php               ][ON:true ] GDPR Cookie Consent
+PLUGIN [SLUG:wp-rest-api-controller/wp-rest-api-controller.php ][ON:true ] WP REST API Controller
+--------------------------------------
+--------------------------------------
+
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\Salesianos\Finais\paroquia-antonio\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.05163]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\Salesianos\Finais\paroquia-antonio\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.07221]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+TEST DUPX_Validation_test_db_connection result: passed
+TEST DUPX_Validation_test_db_version result: passed
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: passed
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: passed
+TEST DUPX_Validation_test_db_custom_queries result: passed
+TEST DUPX_Validation_test_db_supported_charset result: passed
+TEST DUPX_Validation_test_db_gtid_mode result: passed
+TEST DUPX_Validation_test_db_supported_default_charset result: passed
+TEST DUPX_Validation_test_db_case_sensitive_tables result: soft warning
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:00:03
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+RESTORE BACKUP MODE_: false
+HOME URL NEW________: "http://localhost/Salesianos/Finais/paroquia-antonio"
+SITE URL NEW________: "http://localhost/Salesianos/Finais/paroquia-antonio"
+CONTENT URL NEW_____: "http://localhost/Salesianos/Finais/paroquia-antonio/wp-content"
+UPLOAD URL NEW______: "http://localhost/Salesianos/Finais/paroquia-antonio/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/Salesianos/Finais/paroquia-antonio/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/Salesianos/Finais/paroquia-antonio/wp-content/mu-plugins"
+HOME PATH NEW_______: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+SITE PATH NEW_______: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+CONTENT PATH NEW____: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio/wp-content"
+UPLOAD PATH NEW_____: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio/wp-content/uploads"
+PLUGINS PATH NEW____: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio/wp-content/plugins"
+MUPLUGINS PATH NEW__: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0030 sec. - Files processed: 5,216 of 6,987
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 5216
+Archive just got done processing last file in list of 7496
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+CHECK CONFG FILES IN CURRENT HOSTS
+
+EXTRACTION COMPLETE @ 04:00:09 - RUNTIME: 5.9653 sec. - Files processed: 6,987 of 6,987
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 04:00:09
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: false
+CHARSET FB VAL______: ""
+COLLATE_____________: ""
+COLLATE FB__________: false
+COLLATE FB VAL______: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.24 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (1.37MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+TABLES AND ROWS IN ARCHIVE
+--------------------------------------
+TABLE "wp_cli_cookie_scan"______________________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_categories"___________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_cookies"______________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_url"__________________________[ROWS:     0]
+TABLE "wp_cli_scripts"__________________________________[ROWS:     4]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_fea_submissions"______________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   466]
+TABLE "wp_postmeta"_____________________________________[ROWS: 2,719]
+TABLE "wp_posts"________________________________________[ROWS:   365]
+TABLE "wp_term_relationships"___________________________[ROWS:    53]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    15]
+TABLE "wp_termmeta"_____________________________________[ROWS:    24]
+TABLE "wp_terms"________________________________________[ROWS:    15]
+TABLE "wp_usermeta"_____________________________________[ROWS:    80]
+TABLE "wp_users"________________________________________[ROWS:     3]
+--------------------------------------
+
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 14889
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1151287
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+Starting Cleanup Routine...
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	21
+RENAMED TABLES:	0
+QUERIES RAN:	45
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_cli_cookie_scan"______________________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_categories"___________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_cookies"______________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_url"__________________________[ROWS:     0]
+TABLE "wp_cli_scripts"__________________________________[ROWS:     4]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_fea_submissions"______________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   445]
+TABLE "wp_postmeta"_____________________________________[ROWS:  2795]
+TABLE "wp_posts"________________________________________[ROWS:   379]
+TABLE "wp_term_relationships"___________________________[ROWS:    55]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    15]
+TABLE "wp_termmeta"_____________________________________[ROWS:    24]
+TABLE "wp_terms"________________________________________[ROWS:    15]
+TABLE "wp_usermeta"_____________________________________[ROWS:    81]
+TABLE "wp_users"________________________________________[ROWS:     3]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    31]
+
+INSERT DATA RUNTIME: 34.7233 sec.
+STEP-2 COMPLETE @ 04:00:44 - RUNTIME: 34.7234 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:00:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Santo Antonio"
+url_old_______________: "https://santoantonio.erwise.com.br"
+url_new_______________: "http://localhost/Salesianos/Finais/paroquia-antonio"
+siteurl_______________: "http://localhost/Salesianos/Finais/paroquia-antonio"
+path_new______________: "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+path_old______________: "/home2/erwise19/public_html/4-Dominus/santoantonio"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 50
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_cli_cookie_scan"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_categories"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_cookies"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_url"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_scripts"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_cli_scripts][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_packages][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fea_submissions"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   445][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2795][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   379][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	
+STEP-3 CHUNK STOP @ 04:01:12 - RUNTIME: 28.4515 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    81][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/erwise19/public_html/4-Dominus/santoantonio" => "D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio"
+	SEARCH[urlnd]  2:"https://santoantonio.erwise.com.br" ==============> "http://localhost/Salesianos/Finais/paroquia-antonio"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:21 	|	 Rows:3822 	|	 Cells:22496 
+UPDATED:	Tables:5 	|	 Rows:390 	|	 Cells:398 
+ERRORS:		0 
+RUNTIME:	28.984300 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio/wp-config.php
+New htaccess file created:D:/Sites/htdocs/Salesianos/Finais/paroquia-antonio/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost/Salesianos/Finais/paroquia-antonio"
+	UPDATE WP_SITEURL "http://localhost/Salesianos/Finais/paroquia-antonio"
+	UPDATE DB_NAME ""fin-paroquia""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+Installer Host Htaccess path: 
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:01:14 - RUNTIME: 1.1163 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[D:\Sites\htdocs\Salesianos\Finais\paroquia-antonio\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.04682]  MESSAGE:END RENDER PAGE

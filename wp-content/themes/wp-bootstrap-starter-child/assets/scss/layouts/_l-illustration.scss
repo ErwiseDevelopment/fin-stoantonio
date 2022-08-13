@@ -1,0 +1,26 @@
+$layout-name: 'l-illustration';
+
+.#{$layout-name} {
+    &__col-child {
+        &:nth-of-type(odd) {
+            width: 33.3%;
+            max-width: 100%;
+            flex: 0 0 33.3%;
+        }
+
+        &:nth-of-type(even) {
+            width: 66.6%;
+            max-width: 100%;
+            flex: 0 0 66.6%;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            width: 100% !important;
+            flex: 0 0 100% !important;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+$layout-name: 'l-patron';
+
+.#{$layout-name} {
+    // background-image: url(../images/bg-patron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__box {
+        margin-top: -15rem;
+    }
+
+    &__title {
+        font-size: 2.5rem;
+    }
+
+    &__text {
+        @media screen and (min-width: 1600px) {
+            font-size: 1.125rem;
+        }
+    }
+}

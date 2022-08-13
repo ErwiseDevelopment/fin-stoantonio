@@ -1,0 +1,23 @@
+$layout-name: 'l-process';
+
+.#{$layout-name} {
+    &__card-img {
+        width: unset !important;
+    }
+    
+    &__card-title {
+        font-size: 1.125rem;
+
+        @media screen and (min-width: 1600px) {
+            font-size: 1.375rem;
+        }
+    }   
+
+    &__card-text {
+        font-size: .8125rem;
+
+        @media screen and (min-width: 1600px) {
+            font-size: .9375rem;
+        }
+    }
+}
