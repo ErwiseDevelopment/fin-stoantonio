@@ -1,3 +1,4 @@
+<?php $link_pattern = get_field( 'link_padrao_portal', 'option' ); ?>
 <section class="l-here">
 
     <div class="container">
@@ -8,7 +9,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 pl-lg-5">
+                    <div>
 
                         <h2 class="l-here__title u-line-height-100 text-uppercase u-font-weight-black u-color-folk-primary">
                             Acontecendo <br>
@@ -21,7 +22,8 @@
                         <div class="row">
 
                             <div class="col-12">
-                                <a class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" href="#">
+                                <a class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
+                                href="<?php echo $link_pattern . get_field ('ver_todas_noticias','option')?>" target = "_blank">
                                     Ver todas as notícias
                                 </a>
                             </div>
@@ -96,7 +98,7 @@
 
                                                             <div class="row">
 
-                                                                <div class="col-md-7">
+                                                                <div>
                                                                     <a 
                                                                     class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
                                                                     href="<?php echo esc_url( $rest_post->link ); ?>">
