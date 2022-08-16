@@ -102,7 +102,7 @@
 
                                                                 <div class="col-md-7">
                                                                     <a 
-                                                                    class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
+                                                                    class="l-news__small__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-secondary py-2 px-5" 
                                                                     href="<?php echo esc_url( $rest_post->link ); ?>">
                                                                         Ler mais
                                                                     </a>
