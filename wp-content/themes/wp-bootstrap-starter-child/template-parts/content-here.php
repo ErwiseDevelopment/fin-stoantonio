@@ -1,8 +1,4 @@
-<?php
-                            $link_pattern = get_field( 'link_padrao_portal', 'option' );
-
-                        ?>
-<section class="l-here">
+<?php $link_pattern = get_field( 'link_padrao_portal', 'option' ); ?><section class="l-here">
 
     <div class="container">
 
@@ -12,7 +8,8 @@
 
                 <div class="row">
 
-                    <div >
+                    <div class="col-lg-6 pl-lg-5">
+
                         <h2 class="l-here__title u-line-height-100 text-uppercase u-font-weight-black u-color-folk-primary">
                             Acontecendo <br>
                             <span class="u-font-weight-semibold u-color-folk-primary">por aqui</span>
@@ -102,7 +99,7 @@
 
                                                                 <div class="col-md-7">
                                                                     <a 
-                                                                    class="l-news__small__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-secondary py-2 px-5" 
+                                                                    class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
                                                                     href="<?php echo esc_url( $rest_post->link ); ?>">
                                                                         Ler mais
                                                                     </a>
@@ -119,6 +116,137 @@
                         ?>
                         <!-- end slide -->
 
+                        <!-- <div class="swiper-slide">
+
+                            <div class="card border-0">
+
+                                <div class="card-img">
+                                    <img
+                                    class="img-fluid"
+                                    src="http://santoantonio.test/wp-content/uploads/2022/03/Grupo-6.png"
+                                    alt="">
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h5 class="l-here__card-title u-font-weight-bold text-center text-uppercase u-color-folk-primary">
+                                        CONCLUSÃO DA ETAPA DA MISTAGOGIA É CELEBRADA PELAS CRIANÇAS DA PRIMEIRA EUCARISTIA
+                                    </h5>
+
+                                    <p class="l-here__card-text u-font-weight-medium">
+                                        No último final de semana, 29 e 30 de maio, na 
+                                        Solenidade da Santíssima Trindade, os 
+                                        catequizandos da Paróquia Santo Antônio, que 
+                                        receberam a primeira eucaristia no mês de abril, 
+                                        participaram da Santa Missa para celebrar o 
+                                        enceramento da  […]
+                                    </p>
+
+                                    <p class="l-here__card-date u-font-weight-bold u-color-folk-theme">
+                                        02 de junho de 2021
+                                    </p>
+
+                                    <div class="row">
+
+                                        <div class="col-md-7">
+                                            <a 
+                                            class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
+                                            href="#">
+                                                Ler mais
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="card border-0">
+
+                                <div class="card-img">
+                                    <img
+                                    class="img-fluid"
+                                    src="http://santoantonio.test/wp-content/uploads/2022/03/Grupo-6.png"
+                                    alt="">
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h5 class="l-here__card-title u-font-weight-bold text-center text-uppercase u-color-folk-primary">
+                                        CONCLUSÃO DA ETAPA DA MISTAGOGIA É CELEBRADA PELAS CRIANÇAS DA PRIMEIRA EUCARISTIA
+                                    </h5>
+
+                                    <p class="l-here__card-text u-font-weight-medium">
+                                        No último final de semana, 29 e 30 de maio, na 
+                                        Solenidade da Santíssima Trindade, os 
+                                        catequizandos da Paróquia Santo Antônio, que 
+                                        receberam a primeira eucaristia no mês de abril, 
+                                        participaram da Santa Missa para celebrar o 
+                                        enceramento da  […]
+                                    </p>
+
+                                    <p class="l-here__card-date u-font-weight-bold u-color-folk-theme">
+                                        02 de junho de 2021
+                                    </p>
+
+                                    <div class="row">
+
+                                        <div class="col-md-7">
+                                            <a 
+                                            class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
+                                            href="#">
+                                                Ler mais
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="card border-0">
+
+                                <div class="card-img">
+                                    <img
+                                    class="img-fluid"
+                                    src="http://santoantonio.test/wp-content/uploads/2022/03/Grupo-6.png"
+                                    alt="">
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h5 class="l-here__card-title u-font-weight-bold text-center text-uppercase u-color-folk-primary">
+                                        CONCLUSÃO DA ETAPA DA MISTAGOGIA É CELEBRADA PELAS CRIANÇAS DA PRIMEIRA EUCARISTIA
+                                    </h5>
+
+                                    <p class="l-here__card-text u-font-weight-medium">
+                                        No último final de semana, 29 e 30 de maio, na 
+                                        Solenidade da Santíssima Trindade, os 
+                                        catequizandos da Paróquia Santo Antônio, que 
+                                        receberam a primeira eucaristia no mês de abril, 
+                                        participaram da Santa Missa para celebrar o 
+                                        enceramento da  […]
+                                    </p>
+
+                                    <p class="l-here__card-date u-font-weight-bold u-color-folk-theme">
+                                        02 de junho de 2021
+                                    </p>
+
+                                    <div class="row">
+
+                                        <div class="col-md-7">
+                                            <a 
+                                            class="l-news__medium__card-read-more u-line-height-100 hover:u-opacity-8 d-block u-font-weight-bold text-center text-decoration-none u-color-folk-white u-bg-folk-theme py-2 px-5" 
+                                            href="#">
+                                                Ler mais
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
 
