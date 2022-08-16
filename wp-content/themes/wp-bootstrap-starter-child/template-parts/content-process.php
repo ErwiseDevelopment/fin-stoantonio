@@ -18,6 +18,7 @@
                                     <div class="card border-0 flex-row u-bg-folk-none">
 
                                         <div class="l-process__card-img card-img">
+                                            <a href="<?php echo get_sub_field('link_redirecionamento')?>">
                                             <img
                                             class="img-fluid"
                                             src="<?php echo get_sub_field( 'icone_imagem' ) ?>"
@@ -36,6 +37,7 @@
                                                 documentação necessária -->
                                                 <?php echo(limit_words(get_sub_field( 'descricao' ) , 25)); ?>
                                             </p>
+                                            <a>
                                         </div>
                                     </div>
                                 </div>

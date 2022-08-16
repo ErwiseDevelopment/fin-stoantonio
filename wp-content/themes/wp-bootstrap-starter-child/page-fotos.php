@@ -17,6 +17,28 @@ get_header(); ?>
 <section id="primary" class="content-area">
 <div id="main" class="site-main" role="main">
 
+<section class="mb-5">
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-12 px-0">
+
+                <!-- <img
+                class="img-fluid"
+                src=""
+                alt="<php the_title() ?>"> -->
+
+                <?php
+                    $alt_title = get_the_title();
+
+                    echo get_the_post_thumbnail( 303, 'post-thumbnail', array( 'class' => 'img-fluiw w-100', 'style' => 'object-fit:cover', 'alt' => $alt_title) ); ?>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php while ( have_posts() ) : the_post(); ?>
 
 <!-- gallery -->
@@ -52,7 +74,8 @@ get_header(); ?>
                                         <div class="l-page-photos__card-img card-img">
 
                                             <img
-                                            class="img-fluid"
+                                            class="img-fluid w-100"
+                                            style="height:250px;object-fit:cover"
                                             src="<?php echo get_field( 'capa_do_album' ) ?>"
                                             alt="<?php the_title() ?> ">
                                         </div>

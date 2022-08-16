@@ -150,7 +150,7 @@
 
                             <div class="col-lg-8 d-flex align-items-center">
                                 <p class="u-line-height-100 u-font-weight-semibold text-center text-md-left u-color-folk-white mb-0" style= "font-size: 13px;">
-                                    CSALESIANOS REGIÃO SUL © <?php echo date('Y'); ?> TODOS OS DIREITOS RESERVADOS.
+                                    SALESIANOS REGIÃO SUL © <?php echo date('Y'); ?> TODOS OS DIREITOS RESERVADOS.
                                 </p>
                             </div>
 
