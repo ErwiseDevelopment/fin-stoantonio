@@ -12,8 +12,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 pl-lg-5">
-
+                    <div >
                         <h2 class="l-here__title u-line-height-100 text-uppercase u-font-weight-black u-color-folk-primary">
                             Acontecendo <br>
                             <span class="u-font-weight-semibold u-color-folk-primary">por aqui</span>
